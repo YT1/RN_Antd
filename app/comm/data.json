@@ -1,7 +1,0 @@
-[
-  {"isChecked": true, "no" : 1, "date" : "2017年3月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-  {"isChecked": true, "no" : 2, "date" : "2017年4月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-  {"isChecked": true, "no" : 3, "date" : "2017年5月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-  {"isChecked": true, "no" : 4, "date" : "2017年6月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-  {"isChecked": true, "no" : 5, "date" : "2017年7月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"}
-]

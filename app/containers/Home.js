@@ -56,8 +56,7 @@ class Home extends Component {
       endMonth: '1月',
     };
   }
-  productionData=
-    [['中纺粮油（广元）有限公司', 147585, 1456479, 118423,1187195,112358, 1443465, 116930, 1174771, 21.26, 22.68, 24.63, 10.03]];
+
   option = {
     tooltip: {
       trigger: 'axis',
@@ -79,6 +78,13 @@ class Home extends Component {
       {
         type: 'category',
         data: ['1月','2月','3月','4月','5月','6月'],
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
+      {
+        type: 'category',
+        data: ['','','','','',''],
         axisPointer: {
           type: 'shadow'
         }
@@ -111,12 +117,7 @@ class Home extends Component {
       {
         name:'当月产值（万元）',
         type:'bar',
-        data:[2.0, 4.9, 4000.0, 2300, 2500, 760.7]
-      },
-      {
-        name:'1-6月产值累计（万元）',
-        type:'bar',
-        data:[2400, 509, 900.0, 264, 1000]
+        data:[2000, 4900, 4000.0, 2300, 2500, 760.7]
       },
       {
         name:'当月产值同比增值（%）',
@@ -292,6 +293,13 @@ class Home extends Component {
           <View style={styles.echartWrapper}>
             {this.state.showChart === 1 ?  <ECharts option={this.option}></ECharts> :
               <DataTableList
+                daraArr={[
+                  {"isChecked": true, "no" : 1, "date" : "2017年3月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "no" : 2, "date" : "2017年4月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "no" : 3, "date" : "2017年5月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "no" : 4, "date" : "2017年6月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "no" : 5, "date" : "2017年7月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"}
+                ]}
                 headerArr={[
                   {name: '序号'},
                   {name: '统计时间'},

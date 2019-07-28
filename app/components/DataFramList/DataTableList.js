@@ -17,16 +17,16 @@ import {
   EditableCell,
   CheckableCell,
 } from 'react-native-data-table';
+import EnterpriseRow from './EnterpriseRow'
+import { Theme } from '../../comm'
 
-
-var localData = require('../comm/data.json');
 
 export default class DataTableList extends Component {
   constructor(props) {
     super(props);
     this.ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 });
     this.state = {
-      ds: this.ds.cloneWithRows(localData),
+      ds: this.ds,
     };
 
     this.renderHeader = this.renderHeader.bind(this);
@@ -39,12 +39,15 @@ export default class DataTableList extends Component {
   });
 
   render() {
+    const { daraArr = [] } = this.props
+
+
     return (
       <View style={styles.container}>
         <DataTable
           style={styles.container}
-          listViewStyle={styles.container}
-          dataSource={this.state.ds}
+
+          dataSource={this.state.ds.cloneWithRows(daraArr)}
           renderRow={this.renderRow}
           renderHeader={this.renderHeader}
         />
@@ -59,7 +62,8 @@ export default class DataTableList extends Component {
         {headerArr.map((res, index) => {
           return(
             <HeaderCell
-              style={styles.headerCell}
+              style={[styles.headerCell, {borderLeftWidth: index === 0 ? 1 : 0}]}
+              textStyle={{ textAlign: 'center', color: Theme.darkTextColor }}
               key={index + 1}
               text={res.name}
               width={index === 1 ? 2 : 1}
@@ -69,42 +73,17 @@ export default class DataTableList extends Component {
             />
           )
         })}
-        {/*<HeaderCell*/}
-          {/*style={styles.headerCell}*/}
-          {/*key="2"*/}
-          {/*text="序号"*/}
-          {/*width={1}*/}
-          {/*isAscending={false}*/}
-          {/*isSelected={false}*/}
-          {/*onPress={() => this.onColumnSort()}*/}
-        {/*/>*/}
-        {/*<HeaderCell*/}
-          {/*style={styles.headerCell}*/}
-          {/*key="3"*/}
-          {/*text="科室名称"*/}
-          {/*width={3}*/}
-          {/*isAscending={false}*/}
-          {/*isSelected={false}*/}
-          {/*onPress={() => this.onColumnSort()}*/}
-        {/*/>*/}
-        {/*<HeaderCell*/}
-          {/*style={styles.headerCell}*/}
-          {/*key="4"*/}
-          {/*text="数量"*/}
-          {/*width={1}*/}
-          {/*isAscending={false}*/}
-          {/*isSelected={false}*/}
-          {/*onPress={() => this.onColumnSort()}*/}
-        {/*/>*/}
       </Header>
     );
   }
-
   renderRow(item) {
-    let rowStyle = item.no%2 === 0  ? styles.whiteRow : styles.row;
     return (
-      <Row style={rowStyle}>
-        <Cell style={styles.cell} width={1}>
+      <EnterpriseRow item={item}/>
+    );
+  }
+/*
+*
+ <Cell style={styles.cell} width={1}>
           {item.no}
         </Cell>
         <Cell style={styles.cell} width={2}>
@@ -125,10 +104,6 @@ export default class DataTableList extends Component {
         <Cell style={styles.cell} width={1}>
           {item.gRate}
         </Cell>
-      </Row>
-    );
-  }
-/*
 * <EditableCell width={1} value={item.gRate} onEndEditing={(target, value) => {}}>
         </EditableCell>
 * */
@@ -140,15 +115,14 @@ export default class DataTableList extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    borderColor:'#878787',
-    borderWidth: 1,
   },
   header: {
     backgroundColor: 'white',
   },
   headerCell: {
     borderBottomWidth: 1,
-    borderLeftWidth: 1,
+    borderTopWidth: 1,
+    borderRightWidth: 1,
     backgroundColor: 'white',
     borderColor: 'gray',
     justifyContent: 'center',
@@ -158,6 +132,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRightWidth: 1,
     borderBottomWidth: 1,
+    borderLeftWidth: 1,
     borderColor: 'gray',
   },
   alignTextLeft: {
