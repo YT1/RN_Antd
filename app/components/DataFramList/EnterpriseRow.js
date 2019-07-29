@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRightWidth: 1,
     borderBottomWidth: 1,
+    padding: 3,
     borderColor: 'gray',
   },
   alignTextLeft: {

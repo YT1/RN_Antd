@@ -83,6 +83,8 @@ const defaultStyles = StyleSheet.create({
   cell: {
     flex: 1,
     justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderColor: 'gray',
   },
   text: {
     right: -9, // This is to account for RN issue 1287, see https://github.com/facebook/react-native/issues/1287

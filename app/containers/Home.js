@@ -294,20 +294,20 @@ class Home extends Component {
             {this.state.showChart === 1 ?  <ECharts option={this.option}></ECharts> :
               <DataTableList
                 daraArr={[
-                  {"isChecked": true, "no" : 1, "date" : "2017年3月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-                  {"isChecked": true, "no" : 2, "date" : "2017年4月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-                  {"isChecked": true, "no" : 3, "date" : "2017年5月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-                  {"isChecked": true, "no" : 4, "date" : "2017年6月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
-                  {"isChecked": true, "no" : 5, "date" : "2017年7月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"}
+                  {"isChecked": true, "type": "display", "no" : 1, "date" : "2017年3月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "type": "display", "no" : 2, "date" : "2017年4月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "type": "display", "no" : 3, "date" : "2017年5月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "type": "display", "no" : 4, "date" : "2017年6月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"},
+                  {"isChecked": true, "type": "display", "no" : 5, "date" : "2017年7月", "currentMouth":"7200", "zengRate":"7.2",  "hRate":"7.3", "zRate":"7.4", "gRate": "12"}
                 ]}
                 headerArr={[
-                  {name: '序号'},
-                  {name: '统计时间'},
-                  {name: '当月产值（元）'},
-                  {name: '当月产值同比增速（%）'},
-                  {name: '当月产值环比增速（%）'},
-                  {name: '当月增值增速（%）'},
-                  {name: '工业增加值累计增速（%）'},
+                  {name: '序号', width: 1},
+                  {name: '统计时间', width: 2},
+                  {name: '当月产值（元）', width: 1},
+                  {name: '当月产值同比增速（%）', width: 1},
+                  {name: '当月产值环比增速（%）', width: 1},
+                  {name: '当月增值增速（%）', width: 1},
+                  {name: '工业增加值累计增速（%）', width: 1},
                 ]}
             />}
           </View>
@@ -319,8 +319,7 @@ class Home extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff'
+    flex: 1
   },
   containerContent: {
     // alignItems: 'center',

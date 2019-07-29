@@ -18,6 +18,8 @@ import {
   CheckableCell,
 } from 'react-native-data-table';
 import EnterpriseRow from './EnterpriseRow'
+import FinaceRow from './FinaceRow'
+import FinaceDetailRow from './FinaceDetailRow'
 import { Theme } from '../../comm'
 
 
@@ -66,7 +68,7 @@ export default class DataTableList extends Component {
               textStyle={{ textAlign: 'center', color: Theme.darkTextColor }}
               key={index + 1}
               text={res.name}
-              width={index === 1 ? 2 : 1}
+              width={res.width}
               isAscending={false}
               isSelected={false}
               onPress={() => this.onColumnSort()}
@@ -77,33 +79,24 @@ export default class DataTableList extends Component {
     );
   }
   renderRow(item) {
-    return (
-      <EnterpriseRow item={item}/>
-    );
+        switch (item.type) {
+          case 'display':
+            return (
+              <EnterpriseRow item={item}/>
+            );
+          case 'tap':
+            return(
+              <FinaceRow item={item} onPress={(itemx) => this.props.onPress(itemx)}/>
+            );
+          case 'detail_display':
+            return(
+              <FinaceDetailRow item={item}/>
+            );
+        }
+
   }
 /*
 *
- <Cell style={styles.cell} width={1}>
-          {item.no}
-        </Cell>
-        <Cell style={styles.cell} width={2}>
-          {item.date}
-        </Cell>
-        <Cell style={styles.cell} width={1}>
-          {item.currentMouth}
-        </Cell>
-        <Cell style={styles.cell} width={1}>
-          {item.zengRate}
-        </Cell>
-        <Cell style={styles.cell} width={1}>
-          {item.hRate}
-        </Cell>
-        <Cell style={styles.cell} width={1}>
-          {item.zRate}
-        </Cell>
-        <Cell style={styles.cell} width={1}>
-          {item.gRate}
-        </Cell>
 * <EditableCell width={1} value={item.gRate} onEndEditing={(target, value) => {}}>
         </EditableCell>
 * */
@@ -123,6 +116,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderTopWidth: 1,
     borderRightWidth: 1,
+    padding: 3,
     backgroundColor: 'white',
     borderColor: 'gray',
     justifyContent: 'center',

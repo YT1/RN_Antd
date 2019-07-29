@@ -55,7 +55,7 @@ Cell.propTypes = {
 
 Cell.defaultProps = {
   width: 1,
-  numberOfLines: 1,
+  numberOfLines: 2,
 };
 
 const defaultStyles = StyleSheet.create({

@@ -12,42 +12,24 @@ import {
 } from 'react-navigation-redux-helpers'
 import TouchableBounce from 'react-native/Libraries/Components/Touchable/TouchableBounce'
 import { connect } from 'react-redux'
+import { Theme } from './comm'
 
 import Loading from './containers/Loading'
 import Login from './containers/Login'
 import Home from './containers/Home'
 import Project from './containers/Project'
-import User from './containers/User'
-import Account from './containers/Account'
-import Detail from './containers/Detail'
-
 import Finace from './containers/Finace'
-import Coordinate from './containers/Coordinate';
+import FinaceDetail from './containers/finace/FinaceDetail'
+import ProjectDetail from './containers/project/ProjectDetail'
 
-//企业运行服务
-import EnterpriseServices from './containers/6sServices/EnterpriseServices/EnterpriseServices';
-import EnterpriseAnalyze  from "./containers/6sServices/EnterpriseServices/EnterpriseAnalyze";
+import User from './containers/User'
 
-//项目推送服务
-import ProjectPushServices from './containers/6sServices/ProjectPushServices/ProjectPushServices';
-
-//科技创新服务
-import InnovationServices from './containers/6sServices/InnovationServices/InnovationServices';
-
-//金融与证券服务
-import FinanceServices from './containers/6sServices/FinanceServices/FinanceServices';
-
-//品牌与市场促进服务
-import BrandMarketServices from './containers/6sServices/BrandMarketServices/BrandMarketServices';
-
-// 政策咨询服务
-import PoliticsServices from './containers/6sServices/PoliticsServices/PoliticsServices';
 
 // bottom Navigator start
 const HomeNavigator = createBottomTabNavigator({
   'Home': { screen: Home },
   'Finace': { screen: Finace},
-  'Project': { screen: EnterpriseAnalyze },
+  'Project': { screen: Project },
   'User': { screen: User },
 },
   {
@@ -55,6 +37,9 @@ const HomeNavigator = createBottomTabNavigator({
     swipeEnabled: false,
     animationEnabled: false,
     lazyLoad: true,
+    cardStyle: {
+      backgroundColor: Theme.whiteColor,
+    },
     navigationOptions: ({ navigation }) => ({
       tabBarIcon: ({ tintColor, focused }) => {
         const { routeName } = navigation.state
@@ -75,11 +60,11 @@ const HomeNavigator = createBottomTabNavigator({
         }
         if (focused) {
           return (
-            <Text style={{ textAlign: 'center', color: '#EE2B62' }}>{routeTitle}</Text>
+            <Text style={{ textAlign: 'center', color: Theme.baseColor }}>{routeTitle}</Text>
           )
         }
         return (
-          <Text style={{ textAlign: 'center', color:'#878787' }}>{routeTitle}</Text>
+          <Text style={{ textAlign: 'center', color: Theme.darkTextColor }}>{routeTitle}</Text>
         )
       }, //I18n.t('common.home')
       tabBarButtonComponent: TouchableBounce,
@@ -114,6 +99,9 @@ HomeNavigator.navigationOptions = ({ navigation }) => {
   }
   return {
     headerTitle: routeTitle,
+    headerTitleStyle:{
+      color: Theme.darkTextColor
+    }
   }
 }
 
@@ -123,30 +111,16 @@ HomeNavigator.navigationOptions = ({ navigation }) => {
 const MainNavigator = createStackNavigator(
   {
     HomeNavigator: { screen: HomeNavigator },
-    Detail: { screen: Detail },
 
-    //项目运行服务
-    EnterpriseServices: {screen: EnterpriseServices},
-    // EnterpriseAnalyze: {screen: EnterpriseAnalyze},
-
-    // 项目推送服务
-    ProjectPushServices: {screen: ProjectPushServices},
-
-    //科技创新服务
-    InnovationServices: {screen: InnovationServices},
-
-    //金融与证券服务
-    FinanceServices: {screen: FinanceServices},
-
-    //品牌与市场促进服务
-    BrandMarketServices: {screen: BrandMarketServices},
-
-    //政策咨询服务
-    PoliticsServices: {screen: PoliticsServices}
+    FinaceDetail: { screen: FinaceDetail },
+    ProjectDetail: { screen: ProjectDetail },
 
   },
   {
     headerMode: 'float',
+    cardStyle: {
+      backgroundColor: Theme.whiteColor,
+    },
   }
 )
 // main navigator end
