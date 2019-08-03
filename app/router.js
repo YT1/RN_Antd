@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { BackHandler, Animated, Easing, Text, View } from 'react-native'
+import {Provider} from '@ant-design/react-native'
 import {
   createStackNavigator,
   createBottomTabNavigator,
@@ -212,7 +213,7 @@ class Router extends PureComponent {
     const { app, dispatch, router } = this.props
     if (app.loading) return <Loading />
 
-    return <App dispatch={dispatch} state={router} />
+    return <Provider><App dispatch={dispatch} state={router} /></Provider>
   }
 }
 

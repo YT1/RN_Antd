@@ -1,176 +1,179 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-MERGED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-23:12
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4dbdb9912bbc76e36984eac71b2ca532/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/efb86debe99c5d2c2102e4e3a4d040c7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f8f8aaf75d351e7554fc2c085703877/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/60a25abae4b7eec18d68fac2200be1f3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/01fbabbd0d08cba9339ad4f3bcb87003/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b02d66477c384780a4904703579b1bf3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fe78530608ca55ea76fee05a66a11aac/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/da084e661d12ea4cb01ff52fb6f9d9d9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/e33fda6004826380e6d1a78394ba8dde/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/a40248e64dcf916d1bb7072b1b54f4d3/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/3f56313a57f4fa263dea4a0e5d6d3528/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/eb0aeb13c08da9e3740ed072e7d34da6/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/69e8188a3e7e6b3ccc5318deeb64f562/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ba74e381737550e49464a2990ceb7de/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9df641b81abfe53100d7cb93c278cc11/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8902f24619625261be37aa3394dd2ce2/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5919f0e52c5d4f9af502991daa489ab5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cf84a0785528168d242f329bdfe39780/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4a17d334e5103771086ecb59b6118c2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\16cf60005adc9b09fd1674b71d8358ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\055d457edef08ca8568bf300dc1e8d82\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\dbb62b9f88159fd54accc5f06be0d8d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7dd6210937d86a171d17e7a6842592b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\98220779769911bff9b1e473764eb0cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\41463e6c86bbe113a547e19afc6b96fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c86fcd518f8933335765aa32bcf7121\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\d30bc4272600f404b88db407871be478\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\ba99b4ebb0839895bbefd44181c3186c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fe05efadd8a9e073929b627ecb8d8c99\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\a8cd7c63b781a34a48ce7d7beb749172\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\4a6c97bcd7b1f070b43505cbf2a605ae\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\010063f8f4c562a6c0f3b68788887312\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\193eb2cbd3d80a6176c64e8ce464bf8c\AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0b71c16689166e5bbec34d30373a0396\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec114c7ebdf16fb7eb15bbc3f6d6f10c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\e2be4f481b532036df70a0b0923e0cb7\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d336bada2395bd89485d302804619434\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14c7804206bc1f0d9ee560534d2210a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
 	package
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:2:5-23
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:2:5-23
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:11:5-78
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:5:22-75
 application
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:7:5-25:19
-MERGED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-21:19
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/eb0aeb13c08da9e3740ed072e7d34da6/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/eb0aeb13c08da9e3740ed072e7d34da6/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/69e8188a3e7e6b3ccc5318deeb64f562/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/69e8188a3e7e6b3ccc5318deeb64f562/AndroidManifest.xml:2:3-17
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\010063f8f4c562a6c0f3b68788887312\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\010063f8f4c562a6c0f3b68788887312\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\193eb2cbd3d80a6176c64e8ce464bf8c\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\193eb2cbd3d80a6176c64e8ce464bf8c\AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:8:7-38
 activity#com.antd.MainActivity
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:13:7-23:18
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:13:7-23:18
 	android:screenOrientation
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:16:9-45
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:16:9-45
 	android:label
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:17:9-79
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:17:9-79
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:19:9-22:25
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:20:13-65
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:20:21-62
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:21:13-73
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:21:23-70
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:21:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:24:7-84
+ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:24:7-84
 	android:name
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:24:17-81
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:24:17-81
 uses-sdk
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/09b2208a7ac8f43f436a1875b99f07aa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4dbdb9912bbc76e36984eac71b2ca532/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4dbdb9912bbc76e36984eac71b2ca532/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/efb86debe99c5d2c2102e4e3a4d040c7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/efb86debe99c5d2c2102e4e3a4d040c7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f8f8aaf75d351e7554fc2c085703877/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f8f8aaf75d351e7554fc2c085703877/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/60a25abae4b7eec18d68fac2200be1f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/60a25abae4b7eec18d68fac2200be1f3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/01fbabbd0d08cba9339ad4f3bcb87003/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/01fbabbd0d08cba9339ad4f3bcb87003/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b02d66477c384780a4904703579b1bf3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b02d66477c384780a4904703579b1bf3/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fe78530608ca55ea76fee05a66a11aac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fe78530608ca55ea76fee05a66a11aac/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/da084e661d12ea4cb01ff52fb6f9d9d9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/da084e661d12ea4cb01ff52fb6f9d9d9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/e33fda6004826380e6d1a78394ba8dde/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/e33fda6004826380e6d1a78394ba8dde/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/a40248e64dcf916d1bb7072b1b54f4d3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/a40248e64dcf916d1bb7072b1b54f4d3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/3f56313a57f4fa263dea4a0e5d6d3528/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/3f56313a57f4fa263dea4a0e5d6d3528/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/eb0aeb13c08da9e3740ed072e7d34da6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/eb0aeb13c08da9e3740ed072e7d34da6/AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ba74e381737550e49464a2990ceb7de/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1ba74e381737550e49464a2990ceb7de/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9df641b81abfe53100d7cb93c278cc11/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/9df641b81abfe53100d7cb93c278cc11/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8902f24619625261be37aa3394dd2ce2/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8902f24619625261be37aa3394dd2ce2/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5919f0e52c5d4f9af502991daa489ab5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5919f0e52c5d4f9af502991daa489ab5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cf84a0785528168d242f329bdfe39780/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/yangtao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cf84a0785528168d242f329bdfe39780/AndroidManifest.xml:20:5-44
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\47d6b095c4a24bdbdbe68a48033baea9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4a17d334e5103771086ecb59b6118c2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4a17d334e5103771086ecb59b6118c2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\16cf60005adc9b09fd1674b71d8358ea\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\16cf60005adc9b09fd1674b71d8358ea\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\055d457edef08ca8568bf300dc1e8d82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\055d457edef08ca8568bf300dc1e8d82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\dbb62b9f88159fd54accc5f06be0d8d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\dbb62b9f88159fd54accc5f06be0d8d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7dd6210937d86a171d17e7a6842592b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7dd6210937d86a171d17e7a6842592b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\98220779769911bff9b1e473764eb0cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\98220779769911bff9b1e473764eb0cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\41463e6c86bbe113a547e19afc6b96fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\41463e6c86bbe113a547e19afc6b96fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c86fcd518f8933335765aa32bcf7121\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\9c86fcd518f8933335765aa32bcf7121\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\d30bc4272600f404b88db407871be478\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\d30bc4272600f404b88db407871be478\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\ba99b4ebb0839895bbefd44181c3186c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\ba99b4ebb0839895bbefd44181c3186c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fe05efadd8a9e073929b627ecb8d8c99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fe05efadd8a9e073929b627ecb8d8c99\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\a8cd7c63b781a34a48ce7d7beb749172\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\a8cd7c63b781a34a48ce7d7beb749172\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\4a6c97bcd7b1f070b43505cbf2a605ae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\4a6c97bcd7b1f070b43505cbf2a605ae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\010063f8f4c562a6c0f3b68788887312\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\010063f8f4c562a6c0f3b68788887312\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0b71c16689166e5bbec34d30373a0396\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0b71c16689166e5bbec34d30373a0396\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec114c7ebdf16fb7eb15bbc3f6d6f10c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec114c7ebdf16fb7eb15bbc3f6d6f10c\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\e2be4f481b532036df70a0b0923e0cb7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\e2be4f481b532036df70a0b0923e0cb7\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d336bada2395bd89485d302804619434\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d336bada2395bd89485d302804619434\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14c7804206bc1f0d9ee560534d2210a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\lokii\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14c7804206bc1f0d9ee560534d2210a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:14:13-64
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:13:13-83
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:13:13-83
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:17:13-19:63
+ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:17:13-19:63
 	android:resource
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:19:17-60
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:19:17-60
 	android:name
-		ADDED from [:react-native-webview] /Users/yangtao/Desktop/antd - Copy/node_modules/react-native-webview/android/build/intermediates/manifests/full/release/AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-webview] C:\Users\lokii\Documents\GitHub\RN_Antd\node_modules\react-native-webview\android\build\intermediates\manifests\full\release\AndroidManifest.xml:18:17-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/yangtao/Desktop/antd - Copy/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

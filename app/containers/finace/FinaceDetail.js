@@ -7,7 +7,7 @@ import {ReadingStatus, SwitchTab, DownFrame, DataTableList, Button, EditableFram
 import { Theme } from '../../comm'
 import InputScrollView from 'react-native-input-scroll-view'
 
-@connect()
+@connect(({financeDemands})=>({financeDemands}))
 class FinaceDetail extends Component {
   static navigationOptions = {
     title: '企业项目融资需求详情',
@@ -24,6 +24,8 @@ class FinaceDetail extends Component {
   }
 
   render() {
+    const {financeDemands} = this.props
+    console.log("financeDemands:", financeDemands)
     return (
       <InputScrollView
         style={styles.container}
