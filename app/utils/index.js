@@ -23,7 +23,7 @@ export const createAction = type => payload => ({ type, payload })
  * @param size  px
  * @returns {Number} dp
  */
-export function setSpText(size:Number) {
+export function setSpText(size) {
   // console.log(`screenW======${screenW}`)
   // console.log(`screenPxW======${screenPxW}`)
   const scaleWidth = screenW / designWidth
@@ -38,7 +38,7 @@ export function setSpText(size:Number) {
  * @param size  px
  * @returns {Number} dp
  */
-export function scaleSizeH(size:Number) {
+export function scaleSizeH(size) {
   const scaleHeight = size * screenPxH / designHeight
   size = Math.round((scaleHeight / pixelRatio + 0.5))
   return size
@@ -49,7 +49,7 @@ export function scaleSizeH(size:Number) {
  * @param size  px
  * @returns {Number} dp
  */
-export function scaleSizeW(size:Number) {
+export function scaleSizeW(size) {
   const scaleWidth = size * screenPxW / designWidth
   size = Math.round((scaleWidth / pixelRatio + 0.5))
   return size

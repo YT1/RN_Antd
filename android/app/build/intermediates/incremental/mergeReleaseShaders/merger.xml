@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/yangtao/Desktop/antd - Copy/android/app/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/yangtao/Desktop/antd - Copy/android/app/src/release/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\main\shaders"/></dataSet><dataSet config="release"><source path="C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\src\release\shaders"/></dataSet></merger>

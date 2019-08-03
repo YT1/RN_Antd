@@ -1,0 +1,3 @@
+# Referenced at C:\Users\lokii\Documents\GitHub\RN_Antd\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17
+-keep class com.antd.MainApplication { <init>(...); }
+

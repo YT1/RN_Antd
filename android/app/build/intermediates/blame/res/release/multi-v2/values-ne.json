@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yangtao/Desktop/antd - Copy/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne/values-ne.xml",
+            "outputFile": "C:\\Users\\lokii\\Documents\\GitHub\\RN_Antd\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,314,422,513,620,747,841,931,1019,1129,1245,1348,1463,1565,1680,1851,1963",
-                        "endColumns": "104,103,107,90,106,126,93,89,87,109,115,102,114,101,114,170,111,85",
-                        "endOffsets": "205,309,417,508,615,742,836,926,1014,1124,1240,1343,1458,1560,1675,1846,1958,2044"
-                    }
-                },
-                {
-                    "source": "/Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b02d66477c384780a4904703579b1bf3/res/values-ne/values-ne.xml",
+                    "source": "C:\\Users\\lokii\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9c86fcd518f8933335765aa32bcf7121\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2049",
                         "endColumns": "100",
                         "endOffsets": "2145"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lokii\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4a17d334e5103771086ecb59b6118c2f\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,422,513,620,747,841,931,1019,1129,1245,1348,1463,1565,1680,1851,1963",
+                        "endColumns": "104,103,107,90,106,126,93,89,87,109,115,102,114,101,114,170,111,85",
+                        "endOffsets": "205,309,417,508,615,742,836,926,1014,1124,1240,1343,1458,1560,1675,1846,1958,2044"
                     }
                 }
             ]

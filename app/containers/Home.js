@@ -13,6 +13,7 @@ import {IconFont} from "../components";
 import { ECharts } from 'react-native-echarts-wrapper';
 import {ReadingStatus, SwitchTab, DownFrame, DataTableList} from '../components';
 import { Theme } from '../comm'
+import { Toast } from '@ant-design/react-native';
 // "@bang88/china-city-data": "^1.0.0",
 
 @connect()
@@ -55,6 +56,11 @@ class Home extends Component {
       startMonth: '1月',
       endMonth: '1月',
     };
+  }
+
+  handleTest=()=>{
+    //同步异步的调用方式相同
+    this.props.dispatch({type:"financeDemands/initFinanceDemands"})
   }
 
   option = {
@@ -146,6 +152,7 @@ class Home extends Component {
        contentContainerStyle={styles.containerContent}
       >
         <View>
+          <Button onPress={this.handleTest}>Test</Button>
           <ImageBackground style={{
             width: scaleSizeW(750),
             height: scaleSizeH(350),

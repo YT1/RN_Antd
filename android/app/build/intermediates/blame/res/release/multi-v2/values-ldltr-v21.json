@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yangtao/Desktop/antd - Copy/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\lokii\\Documents\\GitHub\\RN_Antd\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "C:\\Users\\lokii\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4a17d334e5103771086ecb59b6118c2f\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

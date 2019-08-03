@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yangtao/Desktop/antd - Copy/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "C:\\Users\\lokii\\Documents\\GitHub\\RN_Antd\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
-                    "source": "/Users/yangtao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b02d66477c384780a4904703579b1bf3/res/values-be/values-be.xml",
+                    "source": "C:\\Users\\lokii\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4a17d334e5103771086ecb59b6118c2f\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
+                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
+                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lokii\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9c86fcd518f8933335765aa32bcf7121\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1974",
                         "endColumns": "108",
                         "endOffsets": "2078"
-                    }
-                },
-                {
-                    "source": "/Users/yangtao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/d4f0e53370970f3bd542e49961b9ced5/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
-                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
-                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
                     }
                 }
             ]

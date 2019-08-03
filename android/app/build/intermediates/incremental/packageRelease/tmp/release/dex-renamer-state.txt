@@ -1,4 +1,4 @@
-#Mon Jul 29 16:07:48 CST 2019
-base.0=/Users/yangtao/Desktop/antd - Copy/android/app/build/intermediates/transforms/dexMerger/release/0
+#Sat Aug 03 06:20:06 CST 2019
+base.0=C\:\\Users\\lokii\\Documents\\GitHub\\RN_Antd\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex

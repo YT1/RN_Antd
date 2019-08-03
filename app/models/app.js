@@ -10,6 +10,7 @@ export default {
   },
   reducers: {
     updateState(state, { payload }) {
+      console.log("initAPP", state)
       return { ...state, ...payload }
     },
   },
